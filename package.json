@@ -1,0 +1,47 @@
+{
+  "name": "assembly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jquery-lazy": "^1.7.10",
+    "jquery-mask-plugin": "^1.14.16",
+    "jquery-selectric": "^0.2.0",
+    "magnific-popup": "^1.1.0",
+    "svg4everybody": "^2.1.9",
+    "swiper": "^5.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-image": "^6.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rm": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgo": "^2.1.1",
+    "gulp-uglify": "^3.0.2",
+    "path": "^0.12.7",
+    "postcss-flexbugs-fixes": "^4.2.0",
+    "postcss-inline-svg": "^4.1.0",
+    "postcss-pseudoelements": "^5.0.0",
+    "postcss-short": "^5.0.0",
+    "postcss-sorting": "^5.0.1"
+  }
+}

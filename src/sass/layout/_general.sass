@@ -1,0 +1,82 @@
+*
+  box-sizing: border-box
+  outline: none
+
+body, html
+  background: white
+  color: $fontColor
+  font-family: $font-family
+  font-size: 16px
+  min-width: 320px
+  max-width: 100%
+  margin: 0
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.page-container
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  min-height: 100vh
+  max-width: 1920px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  overflow: hidden
+
+.container
+  max-width: 1280px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  +r(1300)
+    max-width: 1180px
+  +r($wide)
+    max-width: 960px
+    padding-left: 15px
+    padding-right: 15px
+  +r($desktop)
+    max-width: 720px 
+  +r($tablet)
+    max-width: 540px
+  +r($mobile)
+    max-width: 100%
+h1,h2,h3,h4,h5,h6,p,a,span,ul,ol,li
+  padding: 0
+  margin: 0
+p
+  color: #000000
+  font-family: "FuturaBookC"
+  font-size: 18px
+  font-weight: 400
+  line-height: 30px
+  +r($mobile)
+    line-height: 26px
+    font-size: 17px
+a
+  color: $fontColor
+  text-decoration: none
+  font-family: $font-family
+  font-size: 18px
+  font-weight: 400
+  &:hover, &:focus
+    text-decoration: none
+ul
+  list-style: none
+  li
+ol
+  list-style: decimal
+img.svg
+	display: none
+.swiper-button-next, .swiper-button-prev
+  transform: none
+  margin: 0
+  padding: 0
+  top: auto
+  bottom: auto
+  left: auto
+  right: auto
+  background: none
+  color: transparent
+  &::after
+    display: none

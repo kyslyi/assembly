@@ -1,0 +1,8 @@
+- var svgSprite = 'img/sprite.svg'
+
+mixin icon(name)
+  svg(class="ico " + name)
+    use(xlink:href= svgSprite + '#' + name)
+
+mixin imgToSvg(link)
+  img(class="svg" src="./" + link + ".svg" alt=link)
